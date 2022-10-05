@@ -1,6 +1,7 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
+// these above are called statments 
 
 if (hourNow > 18) {
     greeting = 'Good Evening!';
@@ -11,4 +12,10 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
+// these above are called code blocks
+
 alert(greeting);
+
+// this alert is an action that will occur giving the results from above 
+
+// document.write('<h3>' + greeting + '</h3>');
