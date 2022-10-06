@@ -19,3 +19,9 @@ alert(greeting);
 // this alert is an action that will occur giving the results from above 
 
 // document.write('<h3>' + greeting + '</h3>');
+
+
+// making an array of colors below
+var colors;
+colors = ['Red', 'Blue', 'Yellow', 'Green'];
+console.log(colors[2]);
