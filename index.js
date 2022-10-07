@@ -33,3 +33,13 @@ function sayHello() {
     console.log("Hello!");
 }
 sayHello();
+
+function calculatedArea (width, height) {
+    var area = width * height;
+    return area;
+}
+
+var wallOne = calculatedArea(5, 6);
+var wallTwo = calculatedArea(5, 10);
+console.log(wallOne);
+console.log(wallTwo);
