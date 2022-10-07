@@ -1,3 +1,4 @@
+const firstName = 'Marco';
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -14,9 +15,10 @@ if (hourNow > 18) {
 }
 // these above are called code blocks
 
-alert(greeting);
+alert(greeting + ' ' + firstName);
 
 // this alert is an action that will occur giving the results from above 
+// we concat the greeting with the first name variable
 
 // document.write('<h3>' + greeting + '</h3>');
 
@@ -25,3 +27,9 @@ alert(greeting);
 var colors;
 colors = ['Red', 'Blue', 'Yellow', 'Green'];
 console.log(colors[2]);
+
+// next section will cover functions 
+function sayHello() {
+    console.log("Hello!");
+}
+sayHello();
