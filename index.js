@@ -41,5 +41,7 @@ function calculatedArea (width, height) {
 
 var wallOne = calculatedArea(5, 6);
 var wallTwo = calculatedArea(5, 10);
+var wallThree = calculatedArea(4, 4);
 console.log(wallOne);
 console.log(wallTwo);
+console.log(wallThree);
