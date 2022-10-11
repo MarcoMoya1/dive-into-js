@@ -45,3 +45,6 @@ var wallThree = calculatedArea(4, 4);
 console.log(wallOne);
 console.log(wallTwo);
 console.log(wallThree);
+
+// function declerations are given names, function expressions are not 
+// its better to use function declarations 
