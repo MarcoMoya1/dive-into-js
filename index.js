@@ -48,3 +48,6 @@ console.log(wallThree);
 
 // function declerations are given names, function expressions are not 
 // its better to use function declarations 
+
+// when a variable is created within an object this variable is now called a Property
+// When a function is made in an object it is now called a method
