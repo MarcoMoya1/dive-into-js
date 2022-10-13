@@ -15,7 +15,7 @@ if (hourNow > 18) {
 }
 // these above are called code blocks
 
-alert(greeting + ' ' + firstName);
+// alert(greeting + ' ' + firstName);
 
 // this alert is an action that will occur giving the results from above 
 // we concat the greeting with the first name variable
@@ -51,3 +51,19 @@ console.log(wallThree);
 
 // when a variable is created within an object this variable is now called a Property
 // When a function is made in an object it is now called a method
+
+// below i will create a object literal following the comments above
+
+var person = {
+    name : 'Marco',
+    age: 26,
+    previousAge: 25,
+    isMale: true,
+    ageDivident : function () {
+    return age - previousAge
+    }
+};
+
+console.log(person.name);
+
+
