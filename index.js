@@ -67,3 +67,12 @@ var person = {
 console.log(person.name);
 
 
+var hotel = {
+    rooms: 10,
+    name: 'Moxy',
+    booked: 5,
+
+    roomsOpen function() {
+        return this.rooms -this.booked;
+    }
+}; 
