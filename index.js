@@ -74,5 +74,8 @@ var hotel = {
 
     roomsOpen function() {
         return this.rooms -this.booked;
-    }
+    };
+    roomsOpen();
 }; 
+
+console.log (25 + 5);
