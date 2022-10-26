@@ -67,15 +67,17 @@ var person = {
 console.log(person.name);
 
 
-var hotel = {
-    rooms: 10,
-    name: 'Moxy',
-    booked: 5,
+// var hotel = {
+//     rooms: 10,
+//     name: 'Moxy',
+//     booked: 5,
 
-    roomsOpen function() {
-        return this.rooms -this.booked;
-    };
-    roomsOpen();
-}; 
+//     roomsOpen function(){
+//         return rooms - booked;
+//     };
+//     roomsOpen();
+// }; 
 
-console.log (25 + 5);
+// console.log (25 + 5)
+
+console.log('Howdy Im a string!')
